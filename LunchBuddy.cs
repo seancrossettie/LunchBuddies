@@ -37,5 +37,16 @@ namespace LunchBuddies
                 Console.WriteLine($"{companion.FirstName} {companion.LastName}");
             }
         }
+
+        public void eat(string food, List<LunchBuddy> companions)
+        {
+            var restruant = new Restruant();
+            Console.WriteLine($"{FirstName} {LastName} is at {restruant.Name} and ordered the {food}. They are with the following friends:");
+
+            foreach (var companion in companions)
+            {
+                Console.WriteLine(companion.FirstName);
+            }
+        }
     }
 }
