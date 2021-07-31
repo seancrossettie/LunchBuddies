@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LunchBuddies
 {
@@ -8,6 +9,14 @@ namespace LunchBuddies
         {
             var sean = new LunchBuddy("Sean", "Rossettie");
             sean.eat();
+
+            var matt = new LunchBuddy("Matt", "Vero");
+            matt.eat("chicken");
+
+            var aaron = new LunchBuddy("Aaron", "Young");
+
+            var buddyList = new List<LunchBuddy>() { matt, sean };
+            aaron.eat(buddyList);
         }
     }
 }

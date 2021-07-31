@@ -16,8 +16,6 @@ namespace LunchBuddies
             var random = new Random();
             int index = random.Next(Restruants.Count);
             Name = Restruants[index];
-
-            Console.WriteLine(Name);
         }
     }
 }
