@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchBuddies", "LunchBuddies.csproj", "{79A3CF58-8E03-4C06-998A-4A8885528597}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79A3CF58-8E03-4C06-998A-4A8885528597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A3CF58-8E03-4C06-998A-4A8885528597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A3CF58-8E03-4C06-998A-4A8885528597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A3CF58-8E03-4C06-998A-4A8885528597}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82F9B76B-93F1-4639-A55E-E29B15924E63}
+	EndGlobalSection
+EndGlobal
