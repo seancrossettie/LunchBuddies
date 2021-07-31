@@ -17,6 +17,10 @@ namespace LunchBuddies
 
             var buddyList = new List<LunchBuddy>() { matt, sean };
             aaron.eat(buddyList);
+
+            var blaze = new LunchBuddy("Blaze", "Blanke");
+
+            blaze.eat("chicken", buddyList);
         }
     }
 }
